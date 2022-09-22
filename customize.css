@@ -1,4 +1,16 @@
-h1,
+#content h1 {
+    text-align: center;
+    background: cyan;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
 h2 {
     text-align: center;
 }
@@ -30,6 +42,6 @@ h2 {
 .complete-task,
 .complete-task:hover {
     cursor: pointer;
-    color: grey;
+    color: gray;
     text-decoration-line: line-through;
 }
